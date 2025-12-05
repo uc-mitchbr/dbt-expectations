@@ -2,3 +2,5 @@
 dbt-core@git+https://github.com/dbt-labs/dbt-core.git#subdirectory=core
 dbt-postgres@git+https://github.com/dbt-labs/dbt-postgres.git
 tox>=3.13
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
