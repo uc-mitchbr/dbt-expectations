@@ -2,3 +2,4 @@
 dbt-core@git+https://github.com/dbt-labs/dbt-core.git#subdirectory=core
 dbt-postgres@git+https://github.com/dbt-labs/dbt-postgres.git
 tox>=3.13
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
